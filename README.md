@@ -100,7 +100,7 @@ Row {
 </p>
 </details>
 
-#List
+# List
 To show a simple list
 ```Kotlin
 Column {
