@@ -11,6 +11,7 @@ Android’s modern toolkit for building native UI
     - [Background](#background)
     - [Column](#column)
     - [Row](#row)
+- [List](#list)
 
 # Resource
 - [Android Compose Tutorials (Official)](https://developer.android.com/jetpack/compose)
@@ -98,3 +99,41 @@ Row {
 
 </p>
 </details>
+
+#List
+To show a simple list
+```Kotlin
+Column {
+    listOf("John", "Julia", "Alice", "Mark").forEach {
+        Text("Hello $it")
+    }
+}
+```
+
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/list_1.png)
+
+</p>
+</details>
+We can add divider and some spacing to make this list better.
+```Kotlin
+Column {
+    listOf("John", "Julia", "Alice", "Mark").forEach {
+        Padding(padding = 16.dp) {
+            Text("Hello $it")
+        }
+        Divider()
+    }
+}
+```
+
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/list_2.png)
+
+</p>
+</details>
+
