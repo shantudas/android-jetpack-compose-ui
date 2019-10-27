@@ -5,6 +5,8 @@ Android’s modern toolkit for building native UI
 - [Android Compose Ui](#composeui)
     - [Table of Contents](#table-of-contents)
 - [Resource](#resource)
+- [View](#view)
+    - [Text](#text)
 - [Layout](#layout)
     - [Background](#background)
     - [Column](#column)
@@ -13,6 +15,37 @@ Android’s modern toolkit for building native UI
 # Resource
 - [Android Compose Tutorials (Official)](https://developer.android.com/jetpack/compose)
 - [Jetpack Compose Basics (Codelabs)](https://codelabs.developers.google.com/codelabs/jetpack-compose-basics/index.html)
+
+# View
+
+### Text
+To show a text in compose ui just write 
+```Kotlin
+Text("Hello! Compose Ui")    
+```
+
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/text_1.png)
+
+</p>
+</details>
+
+To add style in text 
+```Kotlin
+Text(text = "Hello! Compose Ui",
+    style = +themeTextStyle { h6 }
+)  
+```
+
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/text_2.png)
+
+</p>
+</details>
 
 # Layout
 
