@@ -117,6 +117,7 @@ Column {
 
 </p>
 </details>
+
 We can add divider and some spacing to make this list better.
 ```Kotlin
 Column {
