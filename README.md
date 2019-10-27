@@ -22,13 +22,29 @@ Column {
       Greeting("Hello!")
       Greeting("Compose Ui")
 }
-
 ```
 
 <details><summary>Screenshot</summary>
 <p>
 
 ![](./assets/images/layout/column_1.png)
+
+</p>
+</details>
+
+### Row
+Shows child view horizontally
+```Kotlin
+Row {
+      Greeting("Hello!")
+      Greeting("Compose Ui")
+}
+```
+
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/row_1.png)
 
 </p>
 </details>
