@@ -48,6 +48,22 @@ Text(text = "Hello! Compose Ui",
 </p>
 </details>
 
+
+You can also add color and background color in your text 
+```Kotlin
+Text( text = "Hello! Compose Ui",
+ style= TextStyle(Color.White,background = Color.Blue)
+)  
+```
+
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/text_3.png)
+
+</p>
+</details>
+
 # Layout
 
 ### Background
@@ -118,7 +134,7 @@ Column {
 </p>
 </details>
 
-We can add divider and some spacing to make this list better.
+You can add divider and some spacing to make this list better.
 ```Kotlin
 Column {
     listOf("John", "Julia", "Alice", "Mark").forEach {
