@@ -118,6 +118,29 @@ Column(
 </p>
 </details>
 
+To add a picture
+```Kotlin
+ val image = +imageResource(R.drawable.header) // here, header is a png image
+Column(
+        crossAxisSize = LayoutSize.Expand,
+        modifier = Spacing(16.dp)
+    ) {
+        Text(text = "Hello!")
+        Text(text = "Compose Ui")
+        HeightSpacer(16.dp)
+        Container(expanded = true, height = 180.dp) {
+            DrawImage(image)
+        }
+    }
+```
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/column_3.png)
+
+</p>
+</details>
+
 ### Row
 Shows child view horizontally
 ```Kotlin
