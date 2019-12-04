@@ -13,6 +13,7 @@ Android’s modern toolkit for building native UI
     - [Row](#row)
 - [List](#list)
 
+
 # Resource
 - [Android Compose Tutorials (Official)](https://developer.android.com/jetpack/compose)
 - [Jetpack Compose Basics (Codelabs)](https://codelabs.developers.google.com/codelabs/jetpack-compose-basics/index.html)
@@ -95,6 +96,24 @@ Column {
 <p>
 
 ![](./assets/images/layout/column_1.png)
+
+</p>
+</details>
+
+To add some style in column
+```Kotlin
+Column(
+        crossAxisSize = LayoutSize.Expand, //crossAxisSize to LayoutSize.Expand specifies that the column should be as wide as its parent allows
+        modifier = Spacing(16.dp)
+    ) {
+        Text(text = "Hello!")
+        Text(text = "Compose Ui")
+    }
+```
+<details><summary>Screenshot</summary>
+<p>
+
+![](./assets/images/layout/column_2.png)
 
 </p>
 </details>
