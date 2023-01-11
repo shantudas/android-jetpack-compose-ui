@@ -1,4 +1,4 @@
-# android-compose-ui
+# android-jetpack-compose-ui
 Android’s modern toolkit for building native UI
 
 ### Table of Contents
